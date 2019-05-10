@@ -1,0 +1,12 @@
+<div [ngClass] = "setClasses()">
+  <p>
+    {{bike.title}}
+    £{{bike.price}}
+    <label>
+      <input (change)="onToggle(bike)" 
+      type="checkbox"></label>
+  </p>
+
+</div>
+
+
